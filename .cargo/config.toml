@@ -1,0 +1,8 @@
+[build]
+target = "wasm64-unknown-unknown"
+
+[rust]
+lld = true
+
+[unstable]
+build-std = ["panic_abort", "std"]

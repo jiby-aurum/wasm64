@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="module">
+        await WebAssembly.instantiateStreaming(await fetch("./target/wasm64-unknown-unknown/release/wasm64.wasm"));
+    </script>
+</head>
+</html>
